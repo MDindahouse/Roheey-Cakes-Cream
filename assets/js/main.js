@@ -52,6 +52,7 @@ AOS.init({
 var swiper = new Swiper(".swiper", {
     effect: "coverflow",
     centeredSlides: true,
+    grabCursor: true,
     slidesPerView: "2",
     loop: true,
     loopedSlides: 7,

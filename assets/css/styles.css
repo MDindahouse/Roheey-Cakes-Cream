@@ -51,7 +51,7 @@ img {
 }
 
 .section {
-	padding: 4.5rem 0 2.5rem;
+	padding: 5rem 0 3rem;
 }
 
 .section_title {
@@ -482,7 +482,7 @@ img {
 	}
 
 	.section {
-		padding: 4.5rem 0 2rem;
+		padding: 5rem 0 3rem;
 	}
 
 	/* Header Section */
@@ -609,6 +609,10 @@ img {
 	.about_img-two {
 		width: 230px;
 	}
+
+	.about_description {
+		font-size: 1.1rem;
+	}
   	/* End of About Section */
 
 
@@ -692,7 +696,7 @@ img {
 
 	/* About Section */
 	.about_description {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 	/* End of About Section */
 
@@ -733,3 +737,15 @@ img {
 	/* End of Footer Section */
 }
 /* End of Large Desktop devices */
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+
+	body {
+		margin: 0;
+	}
+		
+	.hero_container, .hero_img {
+		height: 640px;
+	}
+}
